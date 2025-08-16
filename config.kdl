@@ -2,12 +2,6 @@ keybinds clear-defaults=true {
     locked {
         bind "Ctrl g" { SwitchToMode "normal"; }
     }  
-    normal {
-    bind "Alt O" {
-        NewTab
-        Run "bash" "-lc" "cd $PWD && opencode"
-    }
-    }
     pane {
         bind "left" { MoveFocus "left"; }
         bind "down" { MoveFocus "down"; }
